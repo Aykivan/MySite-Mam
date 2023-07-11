@@ -9,6 +9,11 @@
 	// .header__menu
 	&__menu {
 		margin: 0px 0px 120px 0px;
+
+		&::before{
+			position: relative;
+			z-index: 4;
+		}
 	}
 
 	// .header__content
